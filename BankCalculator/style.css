@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    width: 300px;
+    margin: 11.5rem auto;
+   border: 1px solid #F3F4F5;
+   border-radius: 20px;
+   background-color: #F3F4F5;
+   padding: 50px;
+
+}
+
+.slider {
+    width: 269px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 60px;
+    padding: 30px 40px;
+    display: flex;
+    align-items: center;
+    
+}
+.count{
+    margin-left: -284px;
+}
+.range{
+    width: 253px;
+    margin-left: 113px;
+    margin-bottom: 195px;
+    height: 2px;
+    background: rgb(87, 20, 20);
+    border: none;
+    outline: none;
+}
+.slider p {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Open Sans;
+    padding-left: 30px;
+    color: black;
+}
+
+#cavab{
+    margin: 0 44px;
+}
+
+.slider input[type="range"] {
+    /* -webkit-appearance: none !important; */
+    width: 420px;
+    height: 2px;
+    background: black;
+    border: none;
+    outline: none;
+}
+
+.slider input[type="range"]::-webkit-slider-thumb {
+    /* -webkit-appearance: none !important; */
+    width: 30px;
+    height: 30px;
+    background: black;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider input[type="range"]::-webkit-slider-thumb:hover {
+    background: black;
+}
+
+
+
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid #9e9191;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #4CAF50;
+}
+
+#result {
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
